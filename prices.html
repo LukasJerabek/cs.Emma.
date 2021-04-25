@@ -222,28 +222,6 @@
   </div>
   <script src="translations.js"></script>
   <script>
-    const translate_ids = [
-      "nav_prices",
-      "nav_contact",
-      "info_box",
-      "prices_heading",
-      "note",
-    ];
-    translate_ids.forEach(translate_id => {
-      document.getElementById(translate_id).innerHTML = PricesTranslateMap[translate_id]["cs"];
-    })
-    document.querySelectorAll(".offer").forEach(offer_element => {
-      document.getElementById(offer_element.id).innerHTML = PricesTranslateMap[offer_element.id]["cs"];
-    });
-    document.querySelectorAll(".price").forEach(offer_element => {
-      document.getElementById(offer_element.id).innerHTML = PricesTranslateMap[offer_element.id]["cs"];
-    });
-    document.querySelectorAll(".section_header").forEach(offer_element => {
-      document.getElementById(offer_element.id).innerHTML = PricesTranslateMap[offer_element.id]["cs"];
-    });
-    document.querySelectorAll("p").forEach(offer_element => {
-      document.getElementById(offer_element.id).innerHTML = PricesTranslateMap[offer_element.id]["cs"];
-    });
     document.getElementById("cs").style.fontFamily = "Gilroy-Bold";
     document.getElementById("nav_prices").style.fontFamily = "Gilroy-Medium";
   </script>
